@@ -8,5 +8,5 @@ TRUNCATE "public"."events";
 SELECT COUNT(*) FROM "public"."events";
 ROLLBACK;
 
--- Double check that no data was delete
+-- Double check that no data was delete 
 SELECT COUNT(*) FROM "public"."events";
